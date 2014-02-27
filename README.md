@@ -77,3 +77,4 @@ This creates an alias for the members, adds the alias to a zone, and then adds t
 You can also use any of the above operations individually, or create new defined types, as required. 
 
 Sample manifests can be referred from tests folder.
+dell-iom_8x4
