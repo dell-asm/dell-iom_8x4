@@ -1,0 +1,262 @@
+Debug: Using settings: adding file resource 'confdir': 'File[/etc/puppetlabs/puppet]{:path=>"/etc/puppetlabs/puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'vardir': 'File[/var/opt/lib/pe-puppet]{:path=>"/var/opt/lib/pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Puppet::Type::User::ProviderUser_role_add: file roleadd does not exist
+Debug: Puppet::Type::User::ProviderLdap: true value when expecting false
+Debug: Puppet::Type::User::ProviderPw: file pw does not exist
+Debug: Puppet::Type::User::ProviderDirectoryservice: file /usr/bin/dsimport does not exist
+Debug: Puppet::Type::Group::ProviderLdap: true value when expecting false
+Debug: Puppet::Type::Group::ProviderPw: file pw does not exist
+Debug: Puppet::Type::Group::ProviderDirectoryservice: file /usr/bin/dscl does not exist
+Debug: Using settings: adding file resource 'logdir': 'File[/var/log/puppet]{:path=>"/var/log/puppet", :mode=>"750", :owner=>"pe-puppet", :group=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statedir': 'File[/var/opt/lib/pe-puppet/state]{:path=>"/var/opt/lib/pe-puppet/state", :mode=>"1755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'rundir': 'File[/var/run/puppet]{:path=>"/var/run/puppet", :mode=>"755", :owner=>"pe-puppet", :group=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'libdir': 'File[/var/opt/lib/pe-puppet/lib]{:path=>"/var/opt/lib/pe-puppet/lib", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hiera_config': 'File[/etc/puppetlabs/puppet/hiera.yaml]{:path=>"/etc/puppetlabs/puppet/hiera.yaml", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'certdir': 'File[/var/opt/lib/pe-puppet/ssl/certs]{:path=>"/var/opt/lib/pe-puppet/ssl/certs", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'ssldir': 'File[/var/opt/lib/pe-puppet/ssl]{:path=>"/var/opt/lib/pe-puppet/ssl", :mode=>"771", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'publickeydir': 'File[/var/opt/lib/pe-puppet/ssl/public_keys]{:path=>"/var/opt/lib/pe-puppet/ssl/public_keys", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'requestdir': 'File[/var/opt/lib/pe-puppet/ssl/certificate_requests]{:path=>"/var/opt/lib/pe-puppet/ssl/certificate_requests", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatekeydir': 'File[/var/opt/lib/pe-puppet/ssl/private_keys]{:path=>"/var/opt/lib/pe-puppet/ssl/private_keys", :mode=>"750", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatedir': 'File[/var/opt/lib/pe-puppet/ssl/private]{:path=>"/var/opt/lib/pe-puppet/ssl/private", :mode=>"750", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcert': 'File[/var/opt/lib/pe-puppet/ssl/certs/dellasm.pem]{:path=>"/var/opt/lib/pe-puppet/ssl/certs/dellasm.pem", :mode=>"644", :owner=>"pe-puppet", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostprivkey': 'File[/var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem]{:path=>"/var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem", :mode=>"600", :owner=>"pe-puppet", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostpubkey': 'File[/var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem]{:path=>"/var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem", :mode=>"644", :owner=>"pe-puppet", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'localcacert': 'File[/var/opt/lib/pe-puppet/ssl/certs/ca.pem]{:path=>"/var/opt/lib/pe-puppet/ssl/certs/ca.pem", :mode=>"644", :owner=>"pe-puppet", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'hostcrl': 'File[/var/opt/lib/pe-puppet/ssl/crl.pem]{:path=>"/var/opt/lib/pe-puppet/ssl/crl.pem", :mode=>"644", :owner=>"pe-puppet", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'devicedir': 'File[/var/opt/lib/pe-puppet/devices]{:path=>"/var/opt/lib/pe-puppet/devices", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statefile': 'File[/var/opt/lib/pe-puppet/state/state.yaml]{:path=>"/var/opt/lib/pe-puppet/state/state.yaml", :mode=>"660", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientyamldir': 'File[/var/opt/lib/pe-puppet/client_yaml]{:path=>"/var/opt/lib/pe-puppet/client_yaml", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'client_datadir': 'File[/var/opt/lib/pe-puppet/client_data]{:path=>"/var/opt/lib/pe-puppet/client_data", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'classfile': 'File[/var/opt/lib/pe-puppet/classes.txt]{:path=>"/var/opt/lib/pe-puppet/classes.txt", :mode=>"640", :owner=>"root", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'resourcefile': 'File[/var/opt/lib/pe-puppet/state/resources.txt]{:path=>"/var/opt/lib/pe-puppet/state/resources.txt", :mode=>"640", :owner=>"root", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientbucketdir': 'File[/var/opt/lib/pe-puppet/clientbucket]{:path=>"/var/opt/lib/pe-puppet/clientbucket", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunfile': 'File[/var/opt/lib/pe-puppet/state/last_run_summary.yaml]{:path=>"/var/opt/lib/pe-puppet/state/last_run_summary.yaml", :mode=>"644", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'lastrunreport': 'File[/var/opt/lib/pe-puppet/state/last_run_report.yaml]{:path=>"/var/opt/lib/pe-puppet/state/last_run_report.yaml", :mode=>"640", :ensure=>:file, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'graphdir': 'File[/var/opt/lib/pe-puppet/state/graphs]{:path=>"/var/opt/lib/pe-puppet/state/graphs", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: /File[/etc/puppetlabs/puppet]/seluser: Found seluser default 'system_u' for /etc/puppetlabs/puppet
+Debug: /File[/etc/puppetlabs/puppet]/selrole: Found selrole default 'object_r' for /etc/puppetlabs/puppet
+Debug: /File[/etc/puppetlabs/puppet]/seltype: Found seltype default 'etc_t' for /etc/puppetlabs/puppet
+Debug: /File[/etc/puppetlabs/puppet]/selrange: Found selrange default 's0' for /etc/puppetlabs/puppet
+Debug: /File[/var/opt/lib/pe-puppet]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet
+Debug: /File[/var/opt/lib/pe-puppet]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet
+Debug: /File[/var/opt/lib/pe-puppet]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet
+Debug: /File[/var/opt/lib/pe-puppet]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet
+Debug: /File[/var/log/puppet]/seluser: Found seluser default 'system_u' for /var/log/puppet
+Debug: /File[/var/log/puppet]/selrole: Found selrole default 'object_r' for /var/log/puppet
+Debug: /File[/var/log/puppet]/seltype: Found seltype default 'puppet_log_t' for /var/log/puppet
+Debug: /File[/var/log/puppet]/selrange: Found selrange default 's0' for /var/log/puppet
+Debug: /File[/var/opt/lib/pe-puppet/state]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/state
+Debug: /File[/var/opt/lib/pe-puppet/state]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/state
+Debug: /File[/var/opt/lib/pe-puppet/state]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/state
+Debug: /File[/var/opt/lib/pe-puppet/state]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/state
+Debug: /File[/var/run/puppet]/seluser: Found seluser default 'system_u' for /var/run/puppet
+Debug: /File[/var/run/puppet]/selrole: Found selrole default 'object_r' for /var/run/puppet
+Debug: /File[/var/run/puppet]/seltype: Found seltype default 'puppet_var_run_t' for /var/run/puppet
+Debug: /File[/var/run/puppet]/selrange: Found selrange default 's0' for /var/run/puppet
+Debug: /File[/var/opt/lib/pe-puppet/lib]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/lib
+Debug: /File[/var/opt/lib/pe-puppet/lib]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/lib
+Debug: /File[/var/opt/lib/pe-puppet/lib]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/lib
+Debug: /File[/var/opt/lib/pe-puppet/lib]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/lib
+Debug: /File[/etc/puppetlabs/puppet/hiera.yaml]/seluser: Found seluser default 'system_u' for /etc/puppetlabs/puppet/hiera.yaml
+Debug: /File[/etc/puppetlabs/puppet/hiera.yaml]/selrole: Found selrole default 'object_r' for /etc/puppetlabs/puppet/hiera.yaml
+Debug: /File[/etc/puppetlabs/puppet/hiera.yaml]/seltype: Found seltype default 'etc_t' for /etc/puppetlabs/puppet/hiera.yaml
+Debug: /File[/etc/puppetlabs/puppet/hiera.yaml]/selrange: Found selrange default 's0' for /etc/puppetlabs/puppet/hiera.yaml
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/ssl]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl
+Debug: /File[/var/opt/lib/pe-puppet/ssl]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl
+Debug: /File[/var/opt/lib/pe-puppet/ssl]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl
+Debug: /File[/var/opt/lib/pe-puppet/ssl]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certificate_requests]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certificate_requests]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certificate_requests]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certificate_requests]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/dellasm.pem]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/certs/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/dellasm.pem]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/certs/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/dellasm.pem]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/certs/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/dellasm.pem]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/certs/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/ca.pem]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/certs/ca.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/ca.pem]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/certs/ca.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/ca.pem]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/certs/ca.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/ca.pem]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/certs/ca.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/crl.pem]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/ssl/crl.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/crl.pem]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/ssl/crl.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/crl.pem]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/ssl/crl.pem
+Debug: /File[/var/opt/lib/pe-puppet/ssl/crl.pem]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/ssl/crl.pem
+Debug: /File[/var/opt/lib/pe-puppet/devices]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices
+Debug: /File[/var/opt/lib/pe-puppet/devices]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices
+Debug: /File[/var/opt/lib/pe-puppet/devices]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices
+Debug: /File[/var/opt/lib/pe-puppet/devices]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices
+Debug: /File[/var/opt/lib/pe-puppet/state/state.yaml]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/state/state.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/state.yaml]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/state/state.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/state.yaml]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/state/state.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/state.yaml]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/state/state.yaml
+Debug: /File[/var/opt/lib/pe-puppet/client_yaml]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/client_yaml]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/client_yaml]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/client_yaml]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/client_data]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/client_data
+Debug: /File[/var/opt/lib/pe-puppet/client_data]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/client_data
+Debug: /File[/var/opt/lib/pe-puppet/client_data]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/client_data
+Debug: /File[/var/opt/lib/pe-puppet/client_data]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/client_data
+Debug: /File[/var/opt/lib/pe-puppet/classes.txt]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/classes.txt
+Debug: /File[/var/opt/lib/pe-puppet/classes.txt]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/classes.txt
+Debug: /File[/var/opt/lib/pe-puppet/classes.txt]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/classes.txt
+Debug: /File[/var/opt/lib/pe-puppet/classes.txt]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/classes.txt
+Debug: /File[/var/opt/lib/pe-puppet/state/resources.txt]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/state/resources.txt
+Debug: /File[/var/opt/lib/pe-puppet/state/resources.txt]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/state/resources.txt
+Debug: /File[/var/opt/lib/pe-puppet/state/resources.txt]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/state/resources.txt
+Debug: /File[/var/opt/lib/pe-puppet/state/resources.txt]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/state/resources.txt
+Debug: /File[/var/opt/lib/pe-puppet/clientbucket]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/clientbucket]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/clientbucket]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/clientbucket]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_summary.yaml]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/state/last_run_summary.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_summary.yaml]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/state/last_run_summary.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_summary.yaml]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/state/last_run_summary.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_summary.yaml]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/state/last_run_summary.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_report.yaml]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/state/last_run_report.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_report.yaml]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/state/last_run_report.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_report.yaml]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/state/last_run_report.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_report.yaml]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/state/last_run_report.yaml
+Debug: /File[/var/opt/lib/pe-puppet/state/graphs]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/state/graphs]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/state/graphs]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/state/graphs]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/state]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/var/opt/lib/pe-puppet/lib]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/etc/puppetlabs/puppet/hiera.yaml]: Autorequiring File[/etc/puppetlabs/puppet]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs]: Autorequiring File[/var/opt/lib/pe-puppet/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/ssl]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys]: Autorequiring File[/var/opt/lib/pe-puppet/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certificate_requests]: Autorequiring File[/var/opt/lib/pe-puppet/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys]: Autorequiring File[/var/opt/lib/pe-puppet/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private]: Autorequiring File[/var/opt/lib/pe-puppet/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/dellasm.pem]: Autorequiring File[/var/opt/lib/pe-puppet/ssl/certs]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/private_keys/dellasm.pem]: Autorequiring File[/var/opt/lib/pe-puppet/ssl/private_keys]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/public_keys/dellasm.pem]: Autorequiring File[/var/opt/lib/pe-puppet/ssl/public_keys]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/certs/ca.pem]: Autorequiring File[/var/opt/lib/pe-puppet/ssl/certs]
+Debug: /File[/var/opt/lib/pe-puppet/ssl/crl.pem]: Autorequiring File[/var/opt/lib/pe-puppet/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/devices]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/var/opt/lib/pe-puppet/state/state.yaml]: Autorequiring File[/var/opt/lib/pe-puppet/state]
+Debug: /File[/var/opt/lib/pe-puppet/client_yaml]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/var/opt/lib/pe-puppet/client_data]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/var/opt/lib/pe-puppet/classes.txt]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/var/opt/lib/pe-puppet/state/resources.txt]: Autorequiring File[/var/opt/lib/pe-puppet/state]
+Debug: /File[/var/opt/lib/pe-puppet/clientbucket]: Autorequiring File[/var/opt/lib/pe-puppet]
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_summary.yaml]: Autorequiring File[/var/opt/lib/pe-puppet/state]
+Debug: /File[/var/opt/lib/pe-puppet/state/last_run_report.yaml]: Autorequiring File[/var/opt/lib/pe-puppet/state]
+Debug: /File[/var/opt/lib/pe-puppet/state/graphs]: Autorequiring File[/var/opt/lib/pe-puppet/state]
+Debug: Finishing transaction 29895960
+Debug: found device: 172.17.10.172 at 1
+Info: starting applying configuration to 172.17.10.172 at ssh://admin:Passw0rd@172.17.10.172/?enable=password
+Debug: Using settings: adding file resource 'confdir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'logdir': 'File[/var/log/puppet]{:path=>"/var/log/puppet", :mode=>"750", :owner=>"pe-puppet", :group=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'statedir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/state", :mode=>"1755", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'rundir': 'File[/var/run/puppet]{:path=>"/var/run/puppet", :mode=>"755", :owner=>"pe-puppet", :group=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'libdir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/lib]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/lib", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'certdir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'ssldir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl", :mode=>"771", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'publickeydir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'requestdir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatekeydir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys", :mode=>"750", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'privatedir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private", :mode=>"750", :owner=>"pe-puppet", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientyamldir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'client_datadir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_data]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/client_data", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'clientbucketdir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket", :mode=>"750", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: Using settings: adding file resource 'graphdir': 'File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs]{:path=>"/var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs", :ensure=>:directory, :loglevel=>:debug, :links=>:follow, :backup=>false}'
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172
+Debug: /File[/var/log/puppet]/seluser: Found seluser default 'system_u' for /var/log/puppet
+Debug: /File[/var/log/puppet]/selrole: Found selrole default 'object_r' for /var/log/puppet
+Debug: /File[/var/log/puppet]/seltype: Found seltype default 'puppet_log_t' for /var/log/puppet
+Debug: /File[/var/log/puppet]/selrange: Found selrange default 's0' for /var/log/puppet
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state
+Debug: /File[/var/run/puppet]/seluser: Found seluser default 'system_u' for /var/run/puppet
+Debug: /File[/var/run/puppet]/selrole: Found selrole default 'object_r' for /var/run/puppet
+Debug: /File[/var/run/puppet]/seltype: Found seltype default 'puppet_var_run_t' for /var/run/puppet
+Debug: /File[/var/run/puppet]/selrange: Found selrange default 's0' for /var/run/puppet
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/lib]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/lib
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/lib]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/lib
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/lib]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/lib
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/lib]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/lib
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_data]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_data
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_data]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_data
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_data]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_data
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_data]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/client_data
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs]/seluser: Found seluser default 'system_u' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs]/selrole: Found selrole default 'object_r' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs]/seltype: Found seltype default 'var_t' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs]/selrange: Found selrange default 's0' for /var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/lib]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certs]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/public_keys]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/certificate_requests]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private_keys]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl/private]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172/ssl]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_yaml]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/client_data]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/clientbucket]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172]
+Debug: /File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state/graphs]: Autorequiring File[/var/opt/lib/pe-puppet/devices/172.17.10.172/state]
+Debug: Finishing transaction 28526440
