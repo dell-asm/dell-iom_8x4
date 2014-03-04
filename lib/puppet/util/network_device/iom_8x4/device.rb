@@ -25,6 +25,13 @@ class Puppet::Util::NetworkDevice::Iom_8x4::Device < Puppet::Util::NetworkDevice
   def connect_transport
     transport.connect
     login
+    check_ag
+  end
+  
+  def check_ag
+    if transport.command('ag --modeshow')['Access Gateway mode is enabled.'].nil?
+      abort("Access Gateway mode required to configure switch.")
+    end
   end
 
   def login
