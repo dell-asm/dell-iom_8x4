@@ -77,12 +77,15 @@ module Puppet::Util::NetworkDevice::Iom_8x4::PossibleFacts::Base
       match do |txt|
         switchtype=txt.scan(/switchType:\s+(.*)?/).flatten.first
         modelvalue=Puppet::Iom_8x4_Model::MODEL_HASH.values_at(switchtype).first
-
+        
         if modelvalue.nil? || modelvalue.empty? then
           switchtype = switchtype.partition('.').first
         end
+        
         switchtype = switchtype+'.x'
-        modelvalue=Puppet::Iom_8x4_Model::MODEL_HASH.values_at(switchtype).first
+        modelvalue = Puppet::Iom_8x4_Model::MODEL_HASH.values_at(switchtype).first
+        modelvalue = 'Brocade M5424' if txt.scan(/switchName:\s+(.*)?/).flatten.first.include?('M5424')
+        modelvalue
       end
       cmd "switchshow"
     end
