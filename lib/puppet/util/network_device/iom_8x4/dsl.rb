@@ -2,7 +2,7 @@ require 'puppet/util/network_device'
 require 'puppet/util/network_device/sorter'
 
 #This module provides various methods to register facts. It overrides retrieve method.
-module Puppet::Util::NetworkDevice::Dsl
+module Puppet::Util::NetworkDevice::Iom_8x4::Dsl
   def register_param(params, klass = nil, &block)
     # Make it so that we can register multiple Params at the same time
     # and assign every Param an index number that must match the Regex
@@ -116,7 +116,7 @@ module Puppet::Util::NetworkDevice::Dsl
 
   # register a model based param
   def register_model(param, klass, match_re, fetch_cmd)
-    register_param param, Puppet::Util::NetworkDevice::Brocade_fos::Model::ModelValue do
+    register_param param, Puppet::Util::NetworkDevice::Iom_8x4::Model::ModelValue do
       model klass
       match match_re
       cmd fetch_cmd

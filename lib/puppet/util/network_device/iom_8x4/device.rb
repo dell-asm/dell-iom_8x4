@@ -1,14 +1,12 @@
 #This class is called by the puppet frame work for retrieving the facts .it  retrieve the facts and initialize the switch variables.
 require 'puppet'
 require 'puppet/util'
-require 'puppet/util/network_device/base_ftos'
+require 'puppet/util/network_device/base_iom_8x4'
 require 'puppet/util/network_device/iom_8x4/facts'
-require 'puppet/util/network_device/dell_iom/model'
-require 'puppet/util/network_device/dell_ftos/model'
-require 'puppet/util/network_device/dell_iom/model/switch'
+#require 'puppet/util/network_device/iom_8x4/model/switch'
 require 'puppet/util/network_device/iom_8x4'
 
-class Puppet::Util::NetworkDevice::Iom_8x4::Device < Puppet::Util::NetworkDevice::Base_ftos
+class Puppet::Util::NetworkDevice::Iom_8x4::Device < Puppet::Util::NetworkDevice::Base_Iom_8x4
 
   attr_accessor :enable_password, :switch
   def initialize(url, options = {})
