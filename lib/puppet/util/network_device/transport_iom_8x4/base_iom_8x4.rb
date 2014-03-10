@@ -1,8 +1,8 @@
 #The base class providing generic methods for supporting different transport protocols.
 require 'puppet/util/network_device'
-require 'puppet/util/network_device/transport_ftos'
+require 'puppet/util/network_device/transport_iom_8x4/base_iom_8x4'
 
-class Puppet::Util::NetworkDevice::Transport_ftos::Base_ftos
+class Puppet::Util::NetworkDevice::Transport_Iom_8x4::Base_Iom_8x4
   attr_accessor :user, :password, :host, :port, :default_prompt, :timeout, :cache
   def initialize
     @timeout = 10

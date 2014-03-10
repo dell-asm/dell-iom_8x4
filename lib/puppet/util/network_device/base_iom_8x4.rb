@@ -1,20 +1,19 @@
 require 'uri'
 require 'openssl'
 require 'cgi'
-require 'puppet/util/network_device/transport_ftos'
-require 'puppet/util/network_device/transport_ftos/base_ftos'
+require 'puppet/util/network_device/transport_iom_8x4'
 require '/etc/puppetlabs/puppet/modules/asm_lib/lib/security/encode'
 
-class Puppet::Util::NetworkDevice::Base_ftos
+class Puppet::Util::NetworkDevice::Base_Iom_8x4
   attr_accessor :url, :transport, :crypt
   def initialize(url)
     @url = URI.parse(url)
     @query = CGI.parse(@url.query) if @url.query
 
-    require "puppet/util/network_device/transport_ftos/#{@url.scheme}"
+    require "puppet/util/network_device/transport_iom_8x4/#{@url.scheme}"
 
     unless @transport
-      @transport = Puppet::Util::NetworkDevice::Transport_ftos.const_get(@url.scheme.capitalize).new
+      @transport = Puppet::Util::NetworkDevice::Transport_Iom_8x4.const_get(@url.scheme.capitalize).new
       @transport.host = @url.host
       @transport.port = @url.port || case @url.scheme ; when "ssh" ; 22 ; when "telnet" ; 23 ; else ;23 ; end
       if @query && @query['crypt'] && @query['crypt'] == ['true']

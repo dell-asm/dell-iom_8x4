@@ -2,12 +2,12 @@ require 'puppet/util/network_device/iom_8x4'
 require 'puppet/util/network_device/iom_8x4/fact'
 require 'puppet/util/network_device/iom_8x4/possible_facts'
 require 'puppet/util/network_device/sorter'
-require 'puppet/util/network_device/dsl'
+require 'puppet/util/network_device/iom_8x4/dsl'
 
 #Lookup class which helps in registering the facts and retrieving the fact values
 class Puppet::Util::NetworkDevice::Iom_8x4::Facts
 
-  include Puppet::Util::NetworkDevice::Dsl
+  include Puppet::Util::NetworkDevice::Iom_8x4::Dsl
 
   attr_reader :transport
   def initialize(transport)
