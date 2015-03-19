@@ -27,6 +27,17 @@ class Puppet::Util::NetworkDevice::Base_Iom_8x4
         @transport.user = URI.decode(@url.user) unless @url.user.nil? || @url.user.empty?
         @transport.password = URI.decode(asm_decrypt(@url.password)) unless @url.password.nil? || @url.password.empty?
       end
+
+      override_using_credential_id
+    end
+  end
+
+  def override_using_credential_id
+    if id = @query.fetch('credential_id', []).first
+      require 'asm/cipher'
+      cred = ASM::Cipher.decrypt_credential(id)
+      @transport.user = cred.username
+      @transport.password = cred.password
     end
   end
 
