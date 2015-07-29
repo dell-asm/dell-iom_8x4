@@ -10,14 +10,14 @@ module PuppetX
       attr_accessor :enable_password, :switch, :session, :crypt
 
       def initialize(certname, options={})
-          if options[:device_config]
-            device_conf = options[:device_config]
-          else
-            require 'asm/device_management'
-            device_conf = ASM::DeviceManagement.parse_device_config(certname)
-          end
-        scheme = device_conf[:scheme]
+        if options[:device_config]
+          device_conf = options[:device_config]
+        else
+          require 'asm/device_management'
+          device_conf = ASM::DeviceManagement.parse_device_config(certname)
+        end
 
+        device_conf[:arguments] ||= {}
         @enable_password = options[:enable_password] || device_conf[:arguments]['enable']
 
         unless @session
