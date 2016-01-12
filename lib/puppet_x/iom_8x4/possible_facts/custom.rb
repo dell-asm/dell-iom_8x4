@@ -14,7 +14,7 @@ require 'json'
             end
             portcount=Integer(fcport)-1
 
-            base.register_param ['RemoteDeviceInfo '] do
+            base.register_param ['RemoteDeviceInfo'] do
               rdevice = Hash.new
               ports=nil
               match do |txt|
@@ -32,7 +32,7 @@ require 'json'
               end
               cmd "portshow -i 0-#{portcount}"
               # after 'FC Ports'
-            end  
+            end
           end
         end
       end
